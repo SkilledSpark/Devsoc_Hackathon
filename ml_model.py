@@ -211,9 +211,9 @@ def tree_to_code(tree, feature_names):
                 print("You may have ", present_disease[0], "or ", second_prediction[0])
                 print(description_list[present_disease[0]])
                 print(description_list[second_prediction[0]])
-            precution_list = precautionDictionary[present_disease[0]]
+            precaution_list = precautionDictionary[present_disease[0]]
             print("Take following measures : ")
-            for i, j in enumerate(precution_list):
+            for i, j in enumerate(precaution_list):
                 print(i+1, ")", j)
     recurse(0, 1)
 

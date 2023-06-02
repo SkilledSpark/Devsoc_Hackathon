@@ -16,3 +16,6 @@ def form_submission(request):
 
 def redirect(request):
     return render(request, "health/home.html")
+
+def login(request):
+    return HttpResponseRedirect("/health/login")
